@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AGOGO</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="Agogo.css">
+</head>
+<body>
+    <div class="timer"> 
+        <div class="row minuteur">
+            <p class="col-sm PORTION1" onclick="displayDettente()" data-time="20">PETIT-GOÛTER</p>
+            <p class="col-sm PORTION2" onclick="displayEtirement()" data-time="300">ETIREMENT</p>
+            <p class="col-sm PORTION3" onclick="displayThe()" data-time="900">CHAYI</p>
+            <p class="col-sm PORTION4" onclick="displayDambou()" data-time="1200">DAMBOU</p>
+            <p class="col-sm PORTION5" onclick="displayDejeuner()" data-time="3600">DEJEUNER</p>
+        </div>
+    </div>
+    <div class="mil"><img src="Hourglass.svg" alt="" height="70%" width="60%"></div>
+    <br>
+    <br>
+    <div class="row form">
+        <div class="col-4"></div>
+        <form name="customForm" class="col-4  contenForm" id="custom">
+            <input id="seconds" type="text" name='minutes' placeholder="Enter time in minutes">
+        </form>
+        <br>
+        <br>
+        <br>
+        <div class="col-4">
+        </div>
+    </div>
+   <div class="show">
+        <h1 class="display__time-left"></h1>
+        <br>
+        <br>
+        <br>
+        <br>
+        <p class="display__end-time"></p>
+    </div>
+    
+    <script src="Agogo.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>

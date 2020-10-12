@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(to right,rgb(141, 195, 197), rgb(134, 91, 184));
+}
+.PORTION1{
+    direction: flex;
+    align-items: flex-start;
+    background-color: rgb(33, 168, 78);
+    color: white;
+    text-align: center;
+    height: 30px;
+}
+.PORTION2{
+    direction: flex;
+
+    background-color: rgb(150, 68, 53);
+
+    color: white;
+    text-align: center;
+    height: 30px;
+}.PORTION3{
+    direction: flex;
+    background-color: rgb(142, 44, 187);
+
+    color: white;
+    text-align: center;
+    height: 30px;
+}.PORTION4{
+    direction: flex;
+    background-color: aquamarine;
+    color: white;
+    text-align: center;
+    height: 30px;
+}
+.PORTION5{
+    direction: flex;
+    align-items: flex-end;
+    background-color: rgb(26, 87, 219);
+    color: white;
+    text-align: center;
+    height: 30px;
+}
+
+
+.display__time-left{
+    color: white;
+    font-size: 80px;
+
+}
+
+.display__end-time{
+    color: white;
+    font-size: 20px;
+}
+
+.mil{
+    height:400px;
+    text-align: center;
+}
+
+#seconds{
+    width:100%;
+    text-align: center;
+    font-size: 18px;
+    outline: none;
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+}
+.show{
+    text-align: center;
+}
+
+@media screen and  (max-width:600pX) {
+
+    .mil{
+        height:150px;
+        text-align: cente
+    }
+}
